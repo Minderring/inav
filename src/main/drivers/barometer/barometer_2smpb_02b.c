@@ -41,7 +41,9 @@
 
 #if defined(USE_BARO) && defined(USE_BARO_B2SMPB)
 
+#if !defined(BARO_2SMBP_I2C_ADDRESS)
 #define BARO_2SMBP_I2C_ADDRESS 0x70
+#endif
 
 #define BARO_2SMBP_CHIP_ID 0x5C
 
